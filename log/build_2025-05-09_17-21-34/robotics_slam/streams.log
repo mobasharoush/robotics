@@ -1,0 +1,69 @@
+[0.118s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/robotics_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/robotics_slam
+[0.151s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.221s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.600s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.630s] -- Found slam_toolbox: 2.4.1 (/opt/ros/foxy/share/slam_toolbox/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.700s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.466s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.037s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.107s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.110s] -- Found OGRE
+[2.111s] --   static     : OFF
+[2.111s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.111s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.111s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.111s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.111s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[2.111s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.111s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[2.111s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.111s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.111s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.111s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.167s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.167s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.169s] -- library: libassimp.so.5
+[2.204s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.272s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.609s] -- Found nav2_lifecycle_manager: 0.4.7 (/opt/ros/foxy/share/nav2_lifecycle_manager/cmake)
+[3.134s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.230s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.233s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.233s] -- Added test 'lint_cmake' to check CMake code style
+[3.234s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.239s] -- Added test 'xmllint' to check XML markup files
+[3.239s] -- Configuring done
+[3.246s] -- Generating done
+[3.251s] -- Build files have been written to: /home/mbasharoush/turtlebot3_ws/build/robotics_slam
+[3.264s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/robotics_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/robotics_slam
+[3.266s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/robotics_slam -- -j4 -l4
+[3.334s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/robotics_slam -- -j4 -l4
+[3.336s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/robotics_slam
+[3.350s] -- Install configuration: ""
+[3.351s] -- Execute custom install script
+[3.352s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/launch/async_slam.launch.py
+[3.352s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/launch/multi_tb3_slam.launch.py
+[3.353s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/config/laser_filter_params.yaml
+[3.354s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/config/mapper_params.yaml
+[3.355s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/config/mapper_params_online_async.yaml
+[3.356s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/rviz/async_slam_config.rviz
+[3.356s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/rviz/multi_tb3.rviz
+[3.357s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/ament_index/resource_index/package_run_dependencies/robotics_slam
+[3.357s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/ament_index/resource_index/parent_prefix_path/robotics_slam
+[3.359s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/environment/ament_prefix_path.sh
+[3.359s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/environment/ament_prefix_path.dsv
+[3.360s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/environment/path.sh
+[3.361s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/environment/path.dsv
+[3.361s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/local_setup.bash
+[3.361s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/local_setup.sh
+[3.364s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/local_setup.zsh
+[3.365s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/local_setup.dsv
+[3.365s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/package.dsv
+[3.379s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/ament_index/resource_index/packages/robotics_slam
+[3.379s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/cmake/robotics_slamConfig.cmake
+[3.380s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/cmake/robotics_slamConfig-version.cmake
+[3.381s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/robotics_slam/share/robotics_slam/package.xml
+[3.386s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/robotics_slam
