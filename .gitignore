@@ -1,0 +1,12 @@
+# ROS build artifacts
+build/
+devel/
+install/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Python byte‑code, macOS
+*.pyc
+.DS_Store

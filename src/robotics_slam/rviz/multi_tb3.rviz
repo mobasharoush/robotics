@@ -1,0 +1,29 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Selection
+    Name: Selection
+Visualization Manager:
+  Class: ""
+  Name: "root"
+  Displays:
+    - Name: Map
+      Class: rviz/Map
+      Enabled: true
+      Topic: /tb3_map/map
+      Unreliable: false
+      Queue Size: 10
+    - Name: LaserScan
+      Class: rviz/LaserScan
+      Enabled: true
+      Topic: /tb3_map/scan_filtered
+      Color Transformer: Intensity
+      Size (m): 0.05
+      Unreliable: false
+      Queue Size: 10
+    - Name: RobotModel
+      Class: rviz/RobotModel
+      Enabled: true
+      Robot Description: /tb3_map/robot_description
+  Global Options:
+    Fixed Frame: map

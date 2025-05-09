@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/TurtleBot3/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2
+[0.185s] -- The C compiler identification is GNU 9.4.0
+[0.257s] -- The CXX compiler identification is GNU 9.4.0
+[0.266s] -- Check for working C compiler: /usr/bin/cc
+[0.442s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.443s] -- Detecting C compiler ABI info
+[0.645s] -- Detecting C compiler ABI info - done
+[0.654s] -- Detecting C compile features
+[0.655s] -- Detecting C compile features - done
+[0.668s] -- Check for working CXX compiler: /usr/bin/c++
+[0.976s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.988s] -- Detecting CXX compiler ABI info
+[1.307s] -- Detecting CXX compiler ABI info - done
+[1.318s] -- Detecting CXX compile features
+[1.319s] -- Detecting CXX compile features - done
+[1.349s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.436s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.437s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.999s] -- Configuring done
+[2.003s] -- Generating done
+[2.005s] -- Build files have been written to: /home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2
+[2.129s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/TurtleBot3/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2
+[2.131s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[2.361s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[2.363s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2
+[2.411s] -- Install configuration: ""
+[2.412s] -- Execute custom install script
+[2.412s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.424s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[2.454s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[2.480s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.534s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.558s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.602s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.642s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.684s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.724s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.781s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.848s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.872s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.896s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.962s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.115s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.146s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.238s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.264s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.280s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.317s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.365s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.420s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/turtlebot3_navigation2

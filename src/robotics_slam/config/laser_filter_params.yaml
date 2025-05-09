@@ -1,0 +1,13 @@
+scan_filter_chain:
+  # 1) drop too‑close or too‑far points
+  - name: range_filter
+    type: laser_filters/ScanRangeFilter
+    params:
+      lower_threshold: 0.2
+      upper_threshold: 8.0
+
+  # 2) downsample via a voxel grid on the 2D scan
+  - name: voxel_filter
+    type: laser_filters/VoxelGridLaserFilter
+    params:
+      leaf_size: 0.05

@@ -1,0 +1,24 @@
+[0.159s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/bump_go_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/bump_go_cpp -- -j4 -l4
+[0.337s] [100%] Built target bump_go_node
+[0.392s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/bump_go_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/mbasharoush/turtlebot3_ws/build/bump_go_cpp -- -j4 -l4
+[0.404s] Invoking command in '/home/mbasharoush/turtlebot3_ws/build/bump_go_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/bump_go_cpp
+[0.437s] -- Install configuration: ""
+[0.438s] -- Execute custom install script
+[0.440s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/launch/bump_go_launch.py
+[0.441s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/launch/full_simulation.launch.py
+[0.454s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/ament_index/resource_index/package_run_dependencies/bump_go_cpp
+[0.456s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/ament_index/resource_index/parent_prefix_path/bump_go_cpp
+[0.457s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/environment/ament_prefix_path.sh
+[0.458s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/environment/ament_prefix_path.dsv
+[0.459s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/environment/path.sh
+[0.459s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/environment/path.dsv
+[0.460s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/local_setup.bash
+[0.461s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/local_setup.sh
+[0.462s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/local_setup.zsh
+[0.463s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/local_setup.dsv
+[0.463s] -- Symlinking: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/package.dsv
+[0.493s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/ament_index/resource_index/packages/bump_go_cpp
+[0.496s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/cmake/bump_go_cppConfig.cmake
+[0.498s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/cmake/bump_go_cppConfig-version.cmake
+[0.498s] -- Up-to-date symlink: /home/mbasharoush/turtlebot3_ws/install/bump_go_cpp/share/bump_go_cpp/package.xml
+[0.849s] Invoked command in '/home/mbasharoush/turtlebot3_ws/build/bump_go_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_teleop:/home/mbasharoush/turtlebot3_ws/install/turtlebot3_example:/home/mbasharoush/bookros2_ws/install/ros2controlcli:/home/mbasharoush/bookros2_ws/install/launch_pal:/home/mbasharoush/bookros2_ws/install/br2_fsm_bumpgo_py:/home/mbasharoush/install/ros2controlcli:/home/mbasharoush/install/launch_pal:/home/mbasharoush/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --install /home/mbasharoush/turtlebot3_ws/build/bump_go_cpp

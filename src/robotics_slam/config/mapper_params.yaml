@@ -1,0 +1,27 @@
+slam_toolbox:
+  ros__parameters:
+    # run in simulation time
+    use_sim_time: true
+
+    # mapping mode (vs. localization)
+    mode: mapping
+
+    # how often (s) to update the occupancy grid
+    map_update_interval: 2.0        # default 5.0 → faster decay of removed obstacles
+
+    # resolution of the grid (m/cell)
+    resolution: 0.05
+
+    # only integrate returns ≤ this range
+    max_laser_range: 8.0           # tighten to ignore far “ghost” returns
+    min_laser_range: 0.2
+
+    # lower travel requirements so new scans trigger updates sooner
+    minimum_travel_distance: 0.1    # default 0.5 :contentReference[oaicite:0]{index=0}
+    minimum_travel_heading: 0.05    # default 0.5
+
+    # when deciding occupied vs free, require slightly less hit‐ratio
+    max_occupied_threshold: 0.6     # default ~0.65
+    min_free_threshold: 0.3         # default ~0.2
+
+    # keep everything else at their defaults (loop closure, solver, etc.)

@@ -1,0 +1,8 @@
+[01m[K/home/mbasharoush/turtlebot3_ws/src/bump_go_cpp/src/bump_go_node.cpp:[m[K In member function ‘[01m[Kvoid BumpGoNode::controlLoop()[m[K’:
+[01m[K/home/mbasharoush/turtlebot3_ws/src/bump_go_cpp/src/bump_go_node.cpp:39:24:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   39 |             const auto [01;35m[K[[m[Kleft, right, front_obstacle] = analyzeScan(latest_scan_);
+      |                        [01;35m[K^[m[K
+[01m[K/home/mbasharoush/turtlebot3_ws/src/bump_go_cpp/src/bump_go_node.cpp:[m[K In member function ‘[01m[Kstd::tuple<float, float, bool> BumpGoNode::analyzeScan(const LaserScan&)[m[K’:
+[01m[K/home/mbasharoush/turtlebot3_ws/src/bump_go_cpp/src/bump_go_node.cpp:59:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   59 |         const float [01;35m[Kangle_max[m[K = scan.angle_max;
+      |                     [01;35m[K^~~~~~~~~[m[K

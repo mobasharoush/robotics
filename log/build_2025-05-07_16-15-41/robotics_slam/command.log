@@ -1,0 +1,2 @@
+Invoking command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam': /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/robotics_slam -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/robotics_slam
+Invoked command in '/home/mbasharoush/turtlebot3_ws/build/robotics_slam' returned '1': /usr/bin/cmake /home/mbasharoush/turtlebot3_ws/src/robotics_slam -DCMAKE_INSTALL_PREFIX=/home/mbasharoush/turtlebot3_ws/install/robotics_slam
